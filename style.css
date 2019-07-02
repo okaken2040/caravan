@@ -19,6 +19,10 @@ a {
 	clear: both;
 }
 
+header, nav, h2, .main-visual, footer {
+	font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
 	position: relative;
 	width: 90%;
@@ -29,6 +33,12 @@ header {
 
 header .headline {
 	font-size: 32px;
+}
+
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
 }
 
 .social i {
