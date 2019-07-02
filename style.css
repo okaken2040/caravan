@@ -24,3 +24,9 @@
 	height: 1400px; /* 高さ（多めに設定） */
 	background-color: green; /* 背景色 */
 }
+
+.footer {
+	width: 100%; /* 横幅 */
+	height: 120px; /* 高さ */
+	background-color: blue; /* 背景色 */
+}
