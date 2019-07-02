@@ -44,20 +44,21 @@
 }
 
 .main {
-	width: 100%; /* 横幅 */
-
+	width: 840px; /* 横幅 */
 	background-color: green; /* 背景色 */
+  /* 中央寄せ（余白がないとできない） */
+  margin: 0 auto;
 }
 
 .blog {
 	width: 600px;
-	height: 600px;
+	height: 1400px;
 	background-color: limegreen;
 	float: left; /* 要素を左揃えで並べる */
 }
 .sidebar {
 	width: 240px;
-	height: 600px;
+	height: 1400px;
 	background-color: palegreen;
 	float: left; /* 要素を左揃えで並べる */
 }
