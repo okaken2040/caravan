@@ -65,16 +65,39 @@ header .headline {
 	color: #fff; /* 文字色を白に変更 */
 }
 
-.main {
-	width: 840px; /* 横幅 */
-	/* 中央寄せ（余白がないとできない） */
+main {
+	width: 800px; /* 横幅 */
 	margin: 0 auto;
+	padding: 70px 0; /* 上下に70px、左右に0pxの枠の内側の余白 */
 }
 
 .blog {
-	width: 600px;
+	width: 540px;
 	float: left; /* 要素を左揃えで並べる */
+	margin-right: 30px; /* 箱の右側の余白 */
 }
+
+.blog-headline {
+	border-bottom: 8px solid #f7f7f7;
+	text-align: center;
+	line-height: 0.6;
+}
+.blog-item {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.category {
+	display: inline-block;
+	padding: 5px 8px;
+	background-color: #acabab;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 11px;
+}
+
+
 .sidebar {
 	width: 240px;
 	float: left; /* 要素を左揃えで並べる */
