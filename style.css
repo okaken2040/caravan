@@ -9,7 +9,7 @@
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 /* clearfixを追加 */
@@ -50,8 +50,19 @@ header .headline {
 }
 
 .main-visual-content{
-	width: 350px; /* 横幅を指定 */
+	width: 40%; /* 横幅を指定 */
 	height: 300px; /* 親の高さに揃える */
+	background-color: rgba(0,0,0,0.5);
+	text-align: center; /* 文字を真ん中に寄せる */
+	padding-top: 105px; /* 上側の内側の余白で垂直方向の位置を調整 */
+}
+
+.main-visual-text {
+	color: #fff; /* 文字色を白に変更 */
+}
+.main-visual-name{
+	margin-top: 30px; /* 上側の外側の余白 */
+	color: #fff; /* 文字色を白に変更 */
 }
 
 .main {
